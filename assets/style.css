@@ -114,6 +114,7 @@ footer ul{
     border-color: aqua;
     height: 10rem;
     flex: 45%;
+    border-radius: 10px;
 }
 
 .section2{
@@ -123,6 +124,33 @@ footer ul{
 
 #article100{
     flex: 100%;
+    position: relative;
+}
+
+#article100 p{
+    position: absolute;
+    bottom: 30px;
+    border-style: hidden;
+    background-color: aqua;
+    padding: 15px;
+}
+
+.section2 img{
+    border-radius: 7px;
+}
+
+.work2{
+    position: relative;
+    
+}
+
+.work2 p{
+
+    position: absolute;
+    bottom: 30px;
+    border-style: hidden;
+    background-color: aqua;
+    padding: 15px;
 }
 
 footer li{
@@ -130,5 +158,7 @@ footer li{
     color: rgb(51, 59, 59);
     padding: 10px;
     font-size: 15px;
-    text-decoration-thickness: 2px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+
 }

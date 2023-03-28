@@ -162,3 +162,13 @@ footer li{
     text-decoration-thickness: 2px ;
 
 }
+
+.article1:hover{
+    cursor: pointer;
+}
+
+#article100:hover{
+    transform: scale(1.01);
+}
+    
+}

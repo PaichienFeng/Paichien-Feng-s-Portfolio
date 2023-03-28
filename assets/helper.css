@@ -9,3 +9,8 @@
 .justify-conter{
     justify-content: center;
 }
+
+.pos-rel{
+    position: relative
+}
+

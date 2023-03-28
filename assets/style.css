@@ -168,3 +168,8 @@ footer li{
     transform: scale(1.01);
 }
 
+@media screen and (max-width: 768x) {
+    .article1{
+      width: 100%; 
+    }
+  }

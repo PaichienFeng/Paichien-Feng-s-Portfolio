@@ -1,12 +1,9 @@
-
-
 body{
-    background-color: white;
+    background-color: var(--bgcolor);
     margin: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-
 
 .header1{
     background-color: rgb(37, 50, 54);
@@ -16,22 +13,17 @@ body{
 
 .header1 h1{
     background-color: aliceblue;
-    display: inline-block;
     color: rgb(37, 50, 54);
     font-size: 2rem;
     margin-top: 10px;
     padding: 5px;
 }
-.header2{
-    position: relative;
-}
 
 .header2 p{
-    position: absolute;
     right: 30px;
     top: 40px;
     border-style: hidden;
-    background-color: aqua;
+    background-color: var(--primary);
     padding: 15px;
         
 }
@@ -39,45 +31,33 @@ body{
 .img1{
     height: 100px;
     width: 100%;
-    
 }
 
 .img2{
     height: 100px;  
     width: 100px;
-    position: absolute;
     left: 0;
 }
 
-
-
 nav{
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-right: 20px;
-
-
-}
-
-.ul-1 li{
-    display:inline-block
 }
 
 .ul-1 a{
-    color: aqua;
+    color: var(--primary);
     padding: 10px;
-    font-size: 15px;
+    font-size: 17px;
+    font-weight: bold;
     text-decoration-thickness: 2px;
 }
 
 .section1{
-    display: flex;
     flex-direction: column;
     border-style: dashed;
-    height: 250px;
-    align-items: center;
+    min-height: 150px;
     margin: 10px;
-
 }
 
 .section1 p{
@@ -87,53 +67,43 @@ nav{
 }
 
 main>div{
-    font-size: 1.7rem;
-    margin-top: 10px;
-    text-align: center;
+    font-size: 2rem;
+    margin-top: 10px;   
 }
+
 
 article img{
     height: 150px;
     width: 100%;
 }
 
-footer div{
-    font-size: 1.7rem;
-    margin-top: 10px;
-    text-align: center;
-}
-
-footer ul{
-    text-align: center;
-}
-
 .article1{
-    border-style: solid;
     margin: 10px;
-    border-width: 5px;
-    border-color: aqua;
     height: 10rem;
     flex: 45%;
+    border-style: solid;
+    border-width: 5px;
     border-radius: 10px;
+    border-color: var(--primary)
 }
 
-
+footer div{
+    font-size: 2rem;
+    margin-top: 10px;
+}
 
 .section2{
-    display: flex;
     flex-wrap: wrap;
 }
 
 #article100{
     flex: 100%;
-    position: relative;
 }
 
 #article100 p{
-    position: absolute;
     bottom: 30px;
     border-style: hidden;
-    background-color: aqua;
+    background-color: var(--primary);
     padding: 15px;
 }
 
@@ -141,17 +111,10 @@ footer ul{
     border-radius: 7px;
 }
 
-.work2{
-    position: relative;
-    
-}
-
 .work2 p{
-
-    position: absolute;
     bottom: 30px;
     border-style: hidden;
-    background-color: aqua;
+    background-color: var(--primary);
     padding: 15px;
 }
 
@@ -162,17 +125,16 @@ footer li{
     font-size: 15px;
     text-decoration: underline;
     text-decoration-thickness: 2px ;
-
 }
 
 footer li:hover{
     cursor: pointer;
 }
 
-
 .article1:hover{
     cursor: pointer;
     transform: scale(1.01);
+    filter: brightness(90%);
 }
 
 @media screen and (max-width: 768x) {

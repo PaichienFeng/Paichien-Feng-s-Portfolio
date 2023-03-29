@@ -1,3 +1,12 @@
+:root{
+    --primary: rgb(155, 202, 236);
+    --bgcolor: rgb(228, 216, 228);
+}
+
+.d-inline{
+    display: inline-block;
+}
+
 .d-flex{
     display: flex;
 }
@@ -6,7 +15,7 @@
     align-items: center;
 }
 
-.justify-conter{
+.justify-center{
     justify-content: center;
 }
 
@@ -14,3 +23,14 @@
     position: relative
 }
 
+.pos-abs{
+    position: absolute
+}
+
+.textalign-cen{
+    text-align: center;
+}
+
+.bgcolor{
+    background-color: var(--bgcolor);
+}
